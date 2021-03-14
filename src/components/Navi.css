@@ -1,0 +1,13 @@
+nav {
+  background-color: var(--primary) !important;
+  color: white;
+  position: fixed;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}

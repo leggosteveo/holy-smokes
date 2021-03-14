@@ -1,38 +1,279 @@
+:root {
+  --primary: #93241c;
+  --second: #68200a;
+  --third: #5d5755;
+  --fourth: #806702;
+  --fifth: #e55e31;
+  --fancy-font: "Gorditas";
+  --fancy-font-2: "Lemonada";
+  --fancy-font-3: "Poppins";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.alert {
+  margin: 20px auto;
+  width: 100%;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.bottom-link {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel-caption {
+  background-color: var(--primary);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.container {
+  max-width: 100%;
+}
+
+.eventDescription {
+  text-align: left;
+}
+
+.eventHeader {
+  font-weight: bolder;
+}
+
+.featuredEvent {
+  background-color: var(--primary);
+  border-radius: 8px;
+  color: white;
+  height: 300px;
+  margin: 0 10px;
+  padding: 5%;
+}
+
+.fancy-font {
+  font-family: var(--fancy-font);
+}
+
+.footer-header {
+  font-family: var(--fancy-font-2);
+}
+
+.footer-image {
+  width: 60%;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-section {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.menu-category {
+  margin: 40px auto;
+}
+
+.menu-category-header {
+  font-family: var(--fancy-font-2);
+  margin-bottom: 0.5em;
+}
+
+.menu-item-header {
+  display: inline-block;
+  font-family: var(--fancy-font-3);
+  margin-bottom: 0;
+  font-size: 1em;
+}
+
+.menu-item {
+  text-align: left;
+}
+
+.menu-item-price {
+  background-color: gold;
+  float: right;
+}
+
+.navbar {
+  box-shadow: 2px 2px 8px #140101;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+.navbar-brand {
+  font-family: var(--fancy-font);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-family: var(--fancy-font);
+}
+
+.section-header {
+  color: var(--primary);
+  font-family: var(--fancy-font);
+  margin-bottom: 0.5em;
+}
+
+#bottomLinks {
+  padding: 0 !important;
+  margin: 0;
+}
+
+#bottomLinks li {
+  background-color: var(--second);
+  color: white;
+  display: inline-block;
+  list-style: none;
+  padding: 2%;
+  text-decoration: underline;
+}
+
+#business_logo_div {
+  padding: 5%;
+}
+
+#business_logo_div_img {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  padding: 2%;
+}
+
+#featuredEventsDiv {
+  padding: 5% 0;
+}
+
+#featuredEventsHeader {
+  color: var(--primary);
+  padding-bottom: 20px;
+}
+
+#filterSection {
+  background-color: var(--second);
+  padding: 2%;
+}
+
+#home {
+  margin: 0 auto;
+  position: relative;
+  top: 56px;
+  width: 100%;
+}
+
+#hours_div_header {
+  font-family: var(--fancy-font-2);
+}
+
+#map_container {
+  padding: 0 !important;
+}
+
+#nav_brand_image {
+  width: 60px;
+}
+
+#todaysEventsContainer {
+  background-color: #ceb2aa;
+  padding: 2%;
+}
+
+#todaysEventsHeader {
+  color: var(--fourth);
+}
+
+@media screen and (min-width: 660px) {
+  .carousel {
+    height: 350px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .carousel-inner {
+    height: 350px;
+  }
+
+  .carousel-item {
+    float: none;
+    height: 350px;
+  }
+
+  .menu-item-header {
+    font-size: 0.9em;
+  }
+
+  .section-header {
+    font-size: 3em;
+  }
+
+  #business_logo_div_img {
+    width: 40%;
+  }
+
+  #contactDiv {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .carousel {
+    height: 576px;
+  }
+
+  .carousel-inner {
+    height: 576px;
+  }
+
+  .carousel-item {
+    float: none;
+    height: 576px;
+  }
+  .menu-item {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .carousel {
+    height: 700px;
+  }
+
+  .carousel-inner {
+    height: 700px;
+  }
+
+  .carousel-item {
+    float: none;
+    height: 700px;
+  }
+
+  .menu-category-header {
+    font-size: 2.75em;
+  }
+
+  .menu-item-header {
+    font-size: 1.35em;
+  }
+
+  .section-header {
+    font-size: 4em;
+  }
+
+  #holy_smokes_mission_text {
+    font-size: 1.5em;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 95%;
   }
 }

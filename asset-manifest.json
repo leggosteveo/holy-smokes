@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/holy-smokes/static/css/main.65361ae9.chunk.css",
+    "main.js": "/holy-smokes/static/js/main.5933ed8a.chunk.js",
+    "main.js.map": "/holy-smokes/static/js/main.5933ed8a.chunk.js.map",
+    "runtime-main.js": "/holy-smokes/static/js/runtime-main.e8173e6b.js",
+    "runtime-main.js.map": "/holy-smokes/static/js/runtime-main.e8173e6b.js.map",
+    "static/js/2.97112e3b.chunk.js": "/holy-smokes/static/js/2.97112e3b.chunk.js",
+    "static/js/2.97112e3b.chunk.js.map": "/holy-smokes/static/js/2.97112e3b.chunk.js.map",
+    "static/js/3.f3a5c7ab.chunk.js": "/holy-smokes/static/js/3.f3a5c7ab.chunk.js",
+    "static/js/3.f3a5c7ab.chunk.js.map": "/holy-smokes/static/js/3.f3a5c7ab.chunk.js.map",
+    "index.html": "/holy-smokes/index.html",
+    "static/css/main.65361ae9.chunk.css.map": "/holy-smokes/static/css/main.65361ae9.chunk.css.map",
+    "static/js/2.97112e3b.chunk.js.LICENSE.txt": "/holy-smokes/static/js/2.97112e3b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8173e6b.js",
+    "static/js/2.97112e3b.chunk.js",
+    "static/css/main.65361ae9.chunk.css",
+    "static/js/main.5933ed8a.chunk.js"
+  ]
+}
